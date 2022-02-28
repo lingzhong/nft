@@ -1,0 +1,32 @@
+{
+  "name": "nft",
+  "version": "1.0.0",
+  "description": "Create my own ERC-721 compliant NFT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lingzhong",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.0.0",
+    "solc": "^0.8.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lingzhong/nft.git"
+  },
+  "keywords": [
+    "nft"
+  ],
+  "bugs": {
+    "url": "https://github.com/lingzhong/nft/issues"
+  },
+  "homepage": "https://github.com/lingzhong/nft#readme"
+}
