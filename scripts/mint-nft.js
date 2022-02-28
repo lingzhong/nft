@@ -49,6 +49,6 @@ async function mintNFT(tokenURI) {
 }
 
 mintNFT(
-  "https://ipfs.io/ipfs/bafkreiauv6mth5ki2mw6rbzh4r6ta3wwpxjdgs2ybcs6wiuil7smr3opbe"
+  "ipfs://bafkreie3hvkd2bkwld7phshbd5evh3fk6tslmajilp6epatcm7nd55ur3y"
 )
 
