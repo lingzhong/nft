@@ -1,10 +1,11 @@
 async function main() {
-  const MyNFT = await ethers.getContractFactory("MyNFT")
+  const EthereumOrgTutorialNFT = await ethers.getContractFactory("EthereumOrgTutorialNFT")
 
   // Start deployment, returning a promise that resolves to a contract object
-  const myNFT = await MyNFT.deploy()
-  await myNFT.deployed()
-  console.log("Contract deployed to address:", myNFT.address)
+  const nftContract = await EthereumOrgTutorialNFT.deploy()
+  await nftContract.deployed()
+  console.log("Contract deployed to address:", nftContract.address)
+  console.log("View on Etherscan: https://ropsten.etherscan.io/address/".concat(nftContract.address))
 }
 
 main()

@@ -6,8 +6,8 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3")
 const web3 = createAlchemyWeb3(API_URL)
 
-const contract = require("../artifacts/contracts/MyNFT.sol/MyNFT.json")
-const contractAddress = "0xEf2eBcdAdd26E2aA6dfEb05868093783b9E678A7"
+const contract = require("../artifacts/contracts/EthereumOrgTutorialNFT.sol/EthereumOrgTutorialNFT.json")
+const contractAddress = "0x91dBbd5D6f5e2a8596eAa586E2eD14d9155126CD"
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 async function mintNFT(tokenURI) {
